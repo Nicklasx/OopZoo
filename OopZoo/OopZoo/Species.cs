@@ -17,7 +17,7 @@ namespace OopZoo
 
 		public string Describe()
 		{
-			return "hej " + species;
+			return "Dette dyr er en " + species;
 		}
 
 		public string Animal
