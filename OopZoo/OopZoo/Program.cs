@@ -10,6 +10,7 @@ namespace OopZoo
     {
         public static void Intro()
         {
+            bool loop = true;
             string ja = "ja";
             string nej = "nej";
             string okay = "Det er bare i orden";
@@ -35,11 +36,7 @@ namespace OopZoo
             {
                 Console.WriteLine(okay);
             }
-            else if (svar != ja)
-            {
-                Console.WriteLine(forkert);
-            }
-            else if (svar != nej)
+            else
             {
                 Console.WriteLine(forkert);
             }
