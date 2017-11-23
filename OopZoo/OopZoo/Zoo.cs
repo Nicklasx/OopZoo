@@ -9,7 +9,7 @@ class Zoo
         this.zooName = zooName;
     }
 
-    public string Describe()
+    public string Velkomst()
     {
         return "Velkommen til " + ZooName;
     }

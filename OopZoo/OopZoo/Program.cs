@@ -12,7 +12,7 @@ namespace OopZoo
         {
             Zoo zoo;
             zoo = new Zoo("Zoo Mercantec");
-            Console.WriteLine(zoo.Describe());
+            Console.WriteLine(zoo.Velkomst());
             Console.ReadKey();
         }
     }
