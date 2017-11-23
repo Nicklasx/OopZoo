@@ -10,7 +10,6 @@ namespace OopZoo
     {
         static void Main(string[] args)
         {
-
             Console.ReadKey();
         }
     }
