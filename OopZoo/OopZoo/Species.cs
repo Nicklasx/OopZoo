@@ -8,7 +8,7 @@ namespace OopZoo
 {
 	class Species : Animal
 	{
-		private string species;
+		protected string species;
 
 		public Species(string species)
 		{
