@@ -11,7 +11,8 @@ class Zoo
 
     public string Velkomst()
     {
-        return "Velkommen til " + ZooName;
+        return "Velkommen til " + ZooName + 
+            " vil du ind og se på nogen dyr?";
     }
 
     public string ZooName
