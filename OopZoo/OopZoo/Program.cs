@@ -10,6 +10,9 @@ namespace OopZoo
     {
         static void Main(string[] args)
         {
+            Zoo zoo;
+            zoo = new Zoo("Zoo Mercantec");
+            Console.WriteLine(zoo.Describe());
             Console.ReadKey();
         }
     }
