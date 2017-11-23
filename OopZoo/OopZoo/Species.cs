@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OopZoo
 {
-	class Species
+	class Species : Animal
 	{
 		private string species;
 
@@ -18,6 +18,11 @@ namespace OopZoo
 		public string Describe()
 		{
 			return "Dette dyr er en " + species;
+		}
+
+		public override string animal()
+		{
+			return Describe();
 		}
 
 		public string Animal
